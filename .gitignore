@@ -3,7 +3,9 @@ Docs/
 .vscode/
 
 # AntKeeper project ingored files
-AntKeeper/CMakeLists.txt
 AntKeeper/pico_sdk_import.cmake
 AntKeeper/.vscode/
 AntKeeper/build/
+
+# Develop proof project ingored files
+DevelopProofs/
