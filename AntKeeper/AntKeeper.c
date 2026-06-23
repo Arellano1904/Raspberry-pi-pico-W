@@ -15,7 +15,8 @@ int main(){
     // Initialise the display and its backlight control.
     ili9341_init();
     ili9341_fill_screen(BLACK);
-    ili9341_print_string(0, 0, "RaspberryPi Pico: RP2050", GREEN, BLACK);
+    ili9341_print_string(0, 0, "RaspberryPi-Pico-W:RP2050", GREEN, BLACK);
+    ili9341_print_string(0, 16, "2.4spi-Display:240x320-ILI9341", GREEN, BLACK);
 
     while (true){
     }
